@@ -1,9 +1,14 @@
 The script run_analysis.R uses dplyr package.
 ## First step: read all the data using read.table() function
+
 data_xtrain: 7352 obs. of 561 variables, training set
+
 data_xtest: 2947 obs. of 561 variables, test set
+
 data_ytrain: 7352 obs. of 1 variable, training labels (6 sorts of activity: numbers from 1 to 6)
+
 data_ytest: 2947 obs. of 1 variable, test labels (also numbers 1:6, which represent certain kind of activity)
+
 According to activity_labels.txt these numbers mean:
         1 WALKING
         2 WALKING_UPSTAIRS
@@ -11,9 +16,12 @@ According to activity_labels.txt these numbers mean:
         4 SITTING
         5 STANDING
         6 LAYING
+
 data_subject_train: 7352 obs. of 1 variable (numbers 1:30)
+
 data_subject_test: 2947 obs. of 1 variable, (numbers 1:30) each row identifies the subject who performed 
                                             the activity for each window sample. 
+
 features: 561 obs. of 2 variables, list of all features with their names
 
 ## Second step: merge the data
